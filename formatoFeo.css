@@ -1,0 +1,112 @@
+/*
+Andrea Villaseñor Jiménez - A01642088
+Raymundo Lopez Santiago - A01645463
+Act: M3: Actividad: La página más fea 📘
+ */
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
+body {
+    padding-top: 380px;
+    background-color: red;
+    color: greenyellow;
+}
+
+h1 {
+    color: #b3d4fc;
+    text-decoration: underline dotted;
+}
+
+h2 {
+    color: brown;
+    text-decoration: underline 1000px;
+}
+
+body {
+    border: 20px solid deeppink;
+}
+
+h1 {
+    border: 10px solid pink;
+    width: 200px;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    margin-left: 300px;
+    margin-right: 250px;
+    font-family: 'Manuskript Gotisch', cursive;
+    text-transform: uppercase;
+}
+
+p{
+    font-family: 'UnifrakturMaguntia', cursive;
+}
+
+.rosa {
+    background-color: pink;
+}
+
+.amarillo {
+    border-color: yellow;
+}
+
+h1.azul {
+    border-color: aqua;
+}
+
+#contenedor {
+    width: 1200px;
+    border: 10px solid greenyellow;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+div.elemento {
+    border: 10px solid purple;
+    width: 400px;
+}
+
+.bullet-point-format {
+    list-style-type: disc;
+}
+
+.dash-bullet-point-format {
+    list-style-type: '– '
+}
+
+.circle-bullet-point-format {
+    list-style-type: circle;
+}
+
+.encabezado{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #ff00ff;
+    padding: 20px;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+    gap: 20px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    z-index: 1000;
+    padding: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.encabezado h2 {
+    font-family: "Papyrus", "Comic Sans MS", fantasy;
+    text-decoration: underline;
+}
+
+
+img {
+    height: 200px;
+    border: 5px dashed cyan;
+    margin: 10px;           /* ← Margen interno de la imagen */
+}

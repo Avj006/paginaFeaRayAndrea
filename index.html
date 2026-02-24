@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<!--
+Andrea Villaseñor Jiménez - A01642088
+Raymundo Lopez Santiago - A01645463
+Act: M3: Actividad: La página más fea
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="formatoFeo.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="encabezado">
+    <h1>Actividad: La página más fea</h1>
+    <img src="img/meme1.jpg" height=200px alt="">
+    <h2>Andrea Villaseñor Jiménez - A01642088 <br> Raymundo Lopez Santiago - A01645463 </h2>
+</div>
+
+<ol>
+    <li>
+        <h2>HTML</h2>
+        <h3>Introduction</h3>
+        <ul class="bullet-point-format">
+            <li>
+                <h4>What is HTML?</h4>
+            </li>
+        </ul>
+        <p>
+            La forma en la que se escriben las páginas web y se definen sus reglas,
+            instrucciones y funcionalidades.
+        </p>
+        <ul class="bullet-point-format">
+            <li>
+                <h4>Explain the head and the body tags</h4>
+            </li>
+        </ul>
+        <p>
+            En el head casi siempre incluye lo que no se ve a primera vista al entrar
+            a una página web, como lo que necesita para funcionar,
+            así como la que describe su identidad para los navegadores (como el título
+            de la página, su imagen y una pequeña descripción).
+            Por otra parte, en el body ahí está todo lo que se va a ver al entrar al
+            sitio como texto, imágenes, etc.
+        </p>
+        <h3>Basic Tags</h3>
+        <ul class="bullet-point-format">
+            <li>
+                <h4>Explain the <strong>section, article, aside, header, footer tag</strong></h4>
+                <ul class="dash-bullet-point-format">
+                    <li>
+                        <strong>section</strong>: Permite representar una sección cualquiera de
+                        tu página y siempre contienen título; se utiliza principalmente para
+                        seccionar partes de la misma y no se recomiendan si hay etiquetas más
+                        específicas para una sección que quieras incluir en ella
+                        (&lt;section&gt;: El Elemento de Sección Genérica - HTML: Lenguaje de Etiquetas
+                        de Hipertexto | MDN, 2025).
+                    </li>
+                    <li>
+                        <strong>article</strong>: Representa una parte de la página que se requiera
+                        compartir o reutilizar sin depender de otra, como los comentarios de un blog,
+                        donde cada uno estaría dentro de un elemento article
+                        (&lt;article&gt;: El Elemento Con Contenido del Artículo - HTML: Lenguaje de Etiquetas de Hipertexto | MDN, 2025).
+                    </li>
+                    <li>
+                        <strong>aside</strong>: Representa una sección de una página que contiene indirectamente contenido principal
+                        del documento. A menudo se usa en barras laterales y pueden ser publicidad
+                        (Aside - HTML: Lenguaje de Etiquetas de Hipertexto | MDN, 2025).
+                    </li>
+                    <li>
+                        <strong>header</strong>: Representa el contenido que el usuario primero se va a encontrar en una página web,
+                        como información de la página, como usarla, logo o imágenes, una barra de búsqueda, etc
+                        (&lt;header&gt;: The Header Element - HTML | MDN, 2026).
+                    </li>
+                    <li>
+                        <strong>footer</strong>: Representa un pie de página y típicamente contiene información sobre el autor del
+                        sitio, derechos de autor, enlaces a otros sitios, etc
+                        (Footer - HTML: Lenguaje de Etiquetas de Hipertexto | MDN, 2025).
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <h2> CSS</h2>
+        <h3>Introduction</h3>
+        <ul class="bullet-point-format">
+            <li>
+                <h4>What is CSS?</h4>
+            </li>
+        </ul>
+        <p>
+            Es el lenguaje con el que se diseña y se le da estilo a las páginas web
+        </p>
+        <ul class="bullet-point-format">
+            <li>
+                <h4>What is the purpose of CSS?</h4>
+            </li>
+        </ul>
+        <p>
+            Definir cómo queremos que se vean y compongan nuestras páginas web, los colores, tamaños, tipo de letra, etc.
+        </p>
+        <ol>
+            <li>
+                Con una hoja de estilos externa:
+                <p>
+                    Se aplica creando un archivo con extensión .css y dentro del head, en el HTML donde quieras
+                    aplicarlo, se añade con la etiqueta link, siendo en el .css donde se escribiría el código CSS.
+                    Se recomienda si se va a reutilizar el estilo en otras páginas o sitios.
+                </p>
+            </li>
+            <li>
+                De manera interna (usando la etiqueta style):
+                <p>
+                    Se usa más si no se quiere reutilizar el estilo en otra página y se añade el código CSS en el
+                    head del html dentro de la etiqueta style (&lt;style&gt;).
+                </p>
+            </li>
+            <li>
+                CSS en línea (usando el atributo style):
+                <p>
+                    Similar a aplicar el CSS de manera interna, solo que se aplica de etiqueta en etiqueta como atributo.
+                </p>
+            </li>
+            (Incluir CSS En HTML: Guía Paso A Paso, 2026)
+        </ol>
+        <ul class="bullet-point-format">
+            <li>
+                <h4>What is a selector? What is a CSS rule?</h4>
+            </li>
+        </ul>
+        <p>
+            Un selector es la primera parte de una regla CSS y delimitan a qué elementos HTML les queremos aplicar
+            estilo; la otra parte son las declaraciones (propiedades y un valor separados por dos puntos y terminados
+            en punto y coma) dentro de su bloque, delimitado por llaves ({}) , que en conjunto permiten determinar el
+            cómo se ven los elementos HTML (LibGuides: Basic Coding In LibGuides: CSS Section, s. f.).
+        </p>
+        <ul class="bullet-point-format">
+            <li>
+                <h4>Play the 32 levels of <a href="https://flukeout.github.io/">https://flukeout.github.io/</a></h4>
+            </li>
+        </ul>
+        <img src="img/cssGame.jpg" alt="¡Lo logramos equipo!">
+        <h3>Basic CSS</h3>
+        <ul class="bullet-point-format">
+            <li>
+                <h4>Explain a:</h4>
+                <ul class="circle-bullet-point-format">
+                    <li>
+                        <h5>Tag <strong>Selector</strong></h5>
+                    </li>
+                </ul>
+                <p>
+                    Un selector nos ayuda a elegir qué clase de cosa va a estar editando el documento de CSS.
+                    Por ejemplo, el selector puede ser mi título y todo aquel formato que aplique dentro de este
+                    selector se harán para los títulos.
+                </p>
+                <ul class="circle-bullet-point-format">
+                    <li>
+                        <h5>Class <strong>Selector</strong></h5>
+                    </li>
+                </ul>
+                <p>
+                    En este caso, se debe usar un punto para indicar que no es un selector.
+                    Después del punto se debe poner como un identificador y lo que pongamos dentro de las llaves
+                    serán nos tipos de elementos a los cuales les queremos agregar este formato (que pertenecerán
+                    a esta clase).
+                </p>
+                <ul class="circle-bullet-point-format">
+                    <li>
+                        <h5>Tag and Class <strong>Selector</strong> </h5>
+                    </li>
+                </ul>
+                <p>
+                    Aquí es como una combinación (mix & match) entre el selector y la clase.
+                    Por ende, los tipos de elemento que pertenecen a esa clase, tendrán este formato,
+                    es como un "doble filtro". ejemplo: si quiero editar un párrafo de clase highlight
+                    (y no todos los párrafos o no todos los highlight) utilizo el parrafo.highlight para modificar
+                    su formato.
+                </p>
+                <ul class="circle-bullet-point-format">
+                    <li>
+                        <h5>Id <strong>Selector</strong> </h5>
+                    </li>
+                </ul>
+                <p>
+                    Este se usa para alguna cosa muy específica, puesto que el ID no se puede repetir.
+                    Por ejemplo, si quiero editar el título general (solo habrá 1 así).Debes usar el caracter de gato
+                    (#) y poner #mi-elemento.
+                </p>
+            </li>
+        </ul>
+        <h3>Layout CSS</h3>
+        <ul class="bullet-point-format">
+            <li>
+                <h4>Explain display: grid</h4>
+            </li>
+        </ul>
+        <p>
+            El grid nos ayuda a tener nuestro proyecto en cuadritos, como si fueran planos cartesianos.
+            Es decir, opera a base de renglones (rows) y columnas (columns). Por lo que es una herramienta que se usa
+            para diseño bidimensional, no como flexbox (unidimensional).
+        </p>
+        <ul class="bullet-point-format">
+            <li>
+                <h4>Explain display: flex</h4>
+            </li>
+        </ul>
+        <p>
+            Es una propiedad (display) con valor (flex). En este caso se elige entre columnas o renglones (filas).
+            Ayudan a crear un flex container. Se crea como un área (contenedor) más flexible que nos permite
+            organizarlo de diversas maneras porque hace un ajuste dinámico de acuerdo con su tamaño.
+        </p>
+        <ul class="bullet-point-format">
+            <li>
+                <h4>Play the 24 levels of <a href="https://flexboxfroggy.com/">https://flexboxfroggy.com/</a></h4>
+            </li>
+        </ul>
+        <img src="img/ranas.png" width="50%" alt="¡Lo logramos equipo!">
+        <h3>Create an html challenge</h3>
+        <p>Apply a css framework to your nonatlas clone page. (Screenshot)</p>
+        <img src="img/cssImagen.png" alt="Línea del código (CSS).">
+        <img src="img/nonAtlas.png" alt="La página una vez agregado ese CSS.">
+        <p>Referencias</p>
+        <ol>
+            <li>
+                &lt;section&gt;: El elemento de sección genérica - HTML: Lenguaje de etiquetas de hipertexto | MDN. (2025, 21 junio).
+                <a href="https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/section">
+                    [https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/section](https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/section)
+                </a>
+            </li>
+            <li>
+                &lt;article&gt;: El elemento con contenido del artículo - HTML: Lenguaje de etiquetas de hipertexto | MDN. (2025, 21 junio).
+                <a href="https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/article">
+                    [https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/article](https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/article)
+                </a>
+            </li>
+            <li>
+                aside - HTML: Lenguaje de etiquetas de hipertexto | MDN. (2025, 21 junio).
+                <a href="https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/aside">
+                    [https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/aside](https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/aside)
+                </a>
+            </li>
+            <li>
+                footer - HTML: Lenguaje de etiquetas de hipertexto | MDN. (2025, 20 junio).
+                <a href="https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/footer">
+                    [https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/footer](https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements/footer)
+                </a>
+            </li>
+            <li>
+                Incluir CSS en HTML: guía paso a paso. (2026, 5 enero). IONOS Digital Guide.
+                <a href="https://www.ionos.mx/digitalguide/paginas-web/diseno-web/css-en-html/">
+                    [https://www.ionos.mx/digitalguide/paginas-web/diseno-web/css-en-html/](https://www.ionos.mx/digitalguide/paginas-web/diseno-web/css-en-html/)
+                </a>
+            </li>
+            <li>
+                LibGuides: Basic Coding in LibGuides: CSS Section. (s. f.).
+                <a href="https://guides.hsict.library.utoronto.ca/basiccoding/css">
+                    [https://guides.hsict.library.utoronto.ca/basiccoding/css](https://guides.hsict.library.utoronto.ca/basiccoding/css)
+                </a>
+            </li>
+            <li>
+                W3Schools.com. (s. f.).
+                <a href="https://www.w3schools.com/css/css3_flexbox.asp">
+                    [https://www.w3schools.com/css/css3_flexbox.asp](https://www.w3schools.com/css/css3_flexbox.asp)
+                </a>
+            </li>
+            <li>
+                W3Schools CSS Exercise. (s. f.).
+                <a href="https://www.w3schools.com/css/exercise.asp?x=xrcise_css3_flexbox1">
+                    [https://www.w3schools.com/css/exercise.asp?x=xrcise_css3_flexbox1](https://www.w3schools.com/css/exercise.asp?x=xrcise_css3_flexbox1)
+                </a>
+            </li>
+            <li>
+                W3Schools.com. (s. f.-b).
+                <a href="https://www.w3schools.com/css/css_grid.asp">
+                    [https://www.w3schools.com/css/css_grid.asp](https://www.w3schools.com/css/css_grid.asp)
+                </a>
+            </li>
+            <li>
+                GeeksforGeeks. (2025, 23 julio). What is Display Flex in CSS? GeeksforGeeks.
+                <a href="https://www.geeksforgeeks.org/css/what-is-display-flex-in-css/">
+                    [https://www.geeksforgeeks.org/css/what-is-display-flex-in-css/](https://www.geeksforgeeks.org/css/what-is-display-flex-in-css/)
+                </a>
+            </li>
+            <li>
+                Selectores CSS - Aprende desarrollo web | MDN. (s. f.).
+                <a href="https://developer.mozilla.org/es/docs/Learn_web_development/Core/Styling_basics/Basic_selectors">
+                    [https://developer.mozilla.org/es/docs/Learn_web_development/Core/Styling_basics/Basic_selectors](https://developer.mozilla.org/es/docs/Learn_web_development/Core/Styling_basics/Basic_selectors)
+                </a>
+            </li>
+        </ol>
+    </li>
+</ol>
+</body>
+</html>
